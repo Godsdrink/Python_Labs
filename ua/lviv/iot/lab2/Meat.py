@@ -11,5 +11,3 @@ class Meat(Dish):
 
     def __str__(self):
         return super(Meat, self).__str__() + " Time to cock: " + str(self.time_to_cock)
-
-
